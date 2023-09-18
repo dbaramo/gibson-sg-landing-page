@@ -37,17 +37,20 @@ function App() {
               id="contain-canvas-one"
               className="-z-10 absolute w-screen h-[200svh] "
             />
-            <section className="w-screen h-[100svh] flex bg-black justify-center container mx-auto">
+            <section className="w-screen h-[100svh] flex bg-black justify-center xl:container mx-auto">
               <SectionOne />
             </section>
-            <section className="bg-black w-screen h-screen container mx-auto">
+            <section className="bg-black w-screen h-screen xl:container mx-auto">
               <SectionTwo />
             </section>
           </div>
-          <section r className="bg-black w-screen h-[100svh] container mx-auto">
+          <section
+            r
+            className="bg-black w-screen h-[100svh] xl:container mx-auto"
+          >
             <SectionThree />
           </section>
-          <section className="bg-black w-screen h-[100svh] container mx-auto">
+          <section className="bg-black w-screen h-[100svh] xl:container mx-auto">
             <SectionFour />
           </section>
           <div className="w-full h-full">
@@ -56,7 +59,7 @@ function App() {
               id="contain-canvas-two"
               className="absolute w-screen h-[100svh]"
             />
-            <section className="bg-black w-screen h-[100svh] container mx-auto">
+            <section className="bg-black w-screen h-[100svh] xl:container mx-auto">
               <SectionFive />
             </section>
           </div>
