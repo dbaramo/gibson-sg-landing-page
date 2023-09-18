@@ -29,7 +29,7 @@ export default function SectionThree() {
   return (
     <div
       ref={sectionDivRef}
-      className="w-full h-full bg-[url('/sg-photo-section-3.png')] bg-cover bg-center flex flex-col justify-evenly md:grid md:grid-cols-[7fr_3fr] p-8 clip-third-section"
+      className="w-full h-full bg-[url('/section-3-background-img.png')] bg-cover bg-center flex flex-col justify-evenly md:grid md:grid-cols-[7fr_3fr] p-8 clip-third-section"
     >
       <div className="flex flex-col items-center md:items-start gap-2 ">
         <h2 className="text-white text-center text-4xl md:text-left md:text-6xl uppercase tracking-tight font-medium">
